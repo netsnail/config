@@ -1,0 +1,31 @@
+app-arch/p7zip -wxwidgets rar
+app-editors/emacs X -alsa dbus -gif -gpm -gtk gtk3 jpeg png -svg -tiff -xpm -gsettings -gconf inotify ssl xft zlib dynamic-loading
+app-emulation/qemu ssh xfs
+app-eselect/eselect-php fpm
+app-pda/gtkpod -cdr -aac -flac -vorbis
+app-text/texlive cjk xetex
+app-text/texlive-core cjk xetex
+dev-lang/php fpm curl ftp gd mysql mysqli sockets sqlite threads truetype pdo imap cgi
+dev-lang/python sqlite
+dev-libs/libpcre pcre16
+dev-libs/libxml2 icu
+dev-libs/openssl -bindist
+dev-vcs/subversion -http
+media-libs/harfbuzz icu
+media-libs/phonon -vlc qt5
+media-video/mpv X -a52 alsa bindist -cdio dts -dv -dvd -dvdnav -enca encode -faad -gif iconv -jpeg libass -live mad -mmx -mng -mp3 network opengl -osdmenu -png pulseaudio -quicktime -rar -rtc -sdl shm -speex sse sse2 -theora -toolame -tremor truetype -twolame unicode vorbis x264 xscreensaver -xv -xvid -lua -luajit v4l
+net-dialup/ppp ipv6
+net-fs/samba client
+net-libs/webkit-gtk -webgl -introspection -geolocation
+net-misc/iputils -caps -filecaps
+net-misc/networkmanager -consolekit
+net-misc/openssh -bindist
+net-misc/tightvnc server
+net-nds/openldap -minimal
+net-nds/rpcbind warmstarts
+sys-apps/systemd -sysv-utils
+sys-boot/grub efi-64 -pc
+sys-libs/tdb python
+sys-libs/tevent python
+sys-libs/zlib minizip
+www-client/firefox alsa bindist dbus -gstreamer -jit libnotify minimal pulseaudio startup-notification
