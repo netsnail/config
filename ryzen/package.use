@@ -1,0 +1,19 @@
+sys-apps/systemd -sysv-utils cgroup-hybrid
+sys-libs/libseccomp static-libs
+sys-fs/squashfs-tools lz4 lzma lzo zstd
+app-arch/p7zip rar
+media-gfx/gimp vector-icons webp -mng
+dev-lang/php gd soap fpm mysql mysqli curl ftp kerberos ldap -oci8-instant-client pdo -postgres -snmp sockets sqlite xmlreader xmlwriter zip
+sys-boot/grub mount -themes
+app-emulation/virtualbox -alsa -opus -pam -sdk -java -vboxwebsrv -headless -vnc qt5
+app-eselect/eselect-php fpm
+sys-boot/grub -fonts -sdl
+app-emulation/qemu -rbd -plugins -spice 
+net-dns/dnsmasq script
+dev-libs/weston fullscreen webp xwayland
+xfce-base/xfce4-session -xscreensaver
+media-sound/pulseaudio bluetooth
+sys-apps/busybox pam savedconfig -static
+media-video/ffmpeg vpx theora opus jpeg2k
+media-libs/opencolorio -opengl
+media-gfx/blender -oidn -osl
